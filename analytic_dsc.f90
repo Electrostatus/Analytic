@@ -1,3 +1,6 @@
+! Copyright (c) 2017, Philip Herd
+! This file is distributed under the BSD 2-Clause License
+
 module analytic  ! DESCENDING ORDER!
     implicit none
     ! A collection of general purpose analytic formulas

@@ -1,3 +1,6 @@
+# Copyright (c) 2017, Philip Herd
+# This file is distributed under the BSD 2-Clause License
+
 from cmath import sqrt
 __doc__ = """
 A collection of general purpose analytic formulas
@@ -59,8 +62,8 @@ def root_3(a, b, c, d):
         p = (-1. / (3. * a))
 
         x1 = p * (b + cc + d0 / cc)
-        x2 = p * (b + u1 * cc + d0 / (cu2 * cc))
-        x3 = p * (b + u2 * cc + d0 / (cu3 * cc))
+        x2 = p * (b + cu2 * cc + d0 / (cu2 * cc))
+        x3 = p * (b + cu3 * cc + d0 / (cu3 * cc))
 
     return x1, x2, x3
 
