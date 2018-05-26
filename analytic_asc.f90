@@ -1,4 +1,4 @@
-! Copyright (c) 2017, Philip Herd
+! Copyright (c) 2017 - 2018, Philip Herd
 ! This file is distributed under the BSD 2-Clause License
 
 module analytic  ! ASCENDING ORDER!
