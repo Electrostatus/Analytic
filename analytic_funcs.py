@@ -1,10 +1,10 @@
-# Copyright (c) 2017 - 2021, Philip Herd
+# Copyright (c) 2017 - 2023, Philip Herd
 # This file is distributed under the BSD 2-Clause License
 
 from cmath import sqrt
 __doc__ = """
 A collection of general purpose analytic formulas
-for polynomials of degree 0 through 4 
+for polynomials of degree 0 through 4
 
 Polynomials with degrees higher than four do not have analytic solutions
 """
@@ -24,10 +24,10 @@ def root_2(a, b, c):
     ax^2 + bx + c = 0,  polynomial of degree 2"""
     p1 = sqrt(b * b - 4. * a * c)
     p2 = -2. * a
-    
+
     x1 = (b - p1) / p2
     x2 = (b + p1) / p2
-    
+
     return x1, x2
 
 def root_3(a, b, c, d):
@@ -78,7 +78,7 @@ def root_4(a, b, c, d, e):
           + 72. * bb * dd)
     c1 = (b2 - 3. * aa * cc + 12. * dd)
     cu2 = -0.5 + 0.86602540378443864676j
-    
+
     p1 = sqrt(bq * bq - (4. * c1 * c1 * c1))
     v = (bq - p1) / -2.
     if not v: v = (bq + p1) / -2.  # choose non zero quad root
@@ -108,7 +108,7 @@ def root_4(a, b, c, d, e):
         x3 = p1 + usq2 - blkp
         x4 = p1 - usq2 - blkm
     return x1, x2, x3, x4
- 
+
 def cons(a):
     "constant formula, returns root_0(a)"
     return root_0(a)

@@ -1,10 +1,10 @@
-! Copyright (c) 2017 - 2021, Philip Herd
+! Copyright (c) 2017 - 2023, Philip Herd
 ! This file is distributed under the BSD 2-Clause License
 
 module analytic  ! DESCENDING ORDER!
     implicit none
     ! A collection of general purpose analytic formulas
-    ! for polynomials of degree 0 through 4 
+    ! for polynomials of degree 0 through 4
 
     ! Polynomials with degrees higher than four do not have analytic solutions
 
