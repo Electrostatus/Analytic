@@ -1,4 +1,4 @@
-# Copyright (c) 2017 - 2024, Philip Herd
+# Copyright (c) 2017 - 2025, Philip Herd
 # This file is distributed under the BSD 2-Clause License
 
 from cmath import sqrt
